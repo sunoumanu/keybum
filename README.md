@@ -45,6 +45,6 @@ the toolchain) and reflash. The mapper supports printable US ASCII plus
 1. Open the project in STM32CubeIDE and import `keybum.ioc` if needed.
 2. Build the `Debug` configuration. The linked references in `.project` /
    `.cproject` resolve via the `STM32CUBE_REPO` path variable, which points
-   at `C:/Users/sunox/STM32Cube/Repository/` on this machine — same as
+   at `<USER_HOME>/STM32Cube/Repository/` on this machine — same as
    `mouseum`.
 3. Flash with ST-Link via the included `keybum Debug.launch`.

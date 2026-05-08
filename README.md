@@ -1,5 +1,5 @@
 # keybum
-Keyboard emulator on STM32F411 — sibling to [`mouseum`](../mouseum).
+Keyboard emulator on STM32F411
 
 ## What it does
 The board enumerates as a USB HID **boot keyboard**. When PA0 is pulled low
